@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:id="@+id/searchtbb34"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:title="Contacts"
+        android:id="@+id/tbcontacts"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+
+    <item
+        android:title="Company"
+        android:id="@+id/tbcompany"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+    <item
+        android:title="Products"
+        android:id="@+id/tbproducts"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+
+
+</menu>

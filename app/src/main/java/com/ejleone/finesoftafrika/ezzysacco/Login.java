@@ -44,9 +44,9 @@ import java.util.Map;
 
 public class Login extends AppCompatActivity
 {
-    private static final String SOAP_ACTION = "http://compwebsystems.com/LoginVerification";
+    private static final String SOAP_ACTION = "http://ezzybooks.co.ke/LoginVerification";
     String URL = Constants.URl+"/Ezzyacc/EzzyAccess.asmx?op=LoginVerification";
-    String NAMESPACE ="http://compwebsystems.com/";
+    String NAMESPACE ="http://ezzybooks.co.ke/";
     String METHOD_NAME="LoginVerification";
 
 

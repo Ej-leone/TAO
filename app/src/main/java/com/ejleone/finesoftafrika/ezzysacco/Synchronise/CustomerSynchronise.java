@@ -38,9 +38,9 @@ import java.io.IOException;
 public class CustomerSynchronise extends AppCompatActivity
 {
 
-    private static final String SOAP_ACTION = "http://compwebsystems.com/UpdateMobilecustomerregister";
+    private static final String SOAP_ACTION = "http://ezzybooks.co.ke/UpdateMobilecustomerregister";
     private static final String URL = Constants.URl+ "/Ezzyacc/EzzyAccess.asmx?op=UpdateMobilecustomerregister";
-    private static final String NAMESPACE ="http://compwebsystems.com/";
+    private static final String NAMESPACE ="http://ezzybooks.co.ke/";
     private static final String METHOD_NAME="UpdateMobilecustomerregister";
 
 

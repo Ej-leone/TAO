@@ -59,15 +59,15 @@ public class MainActivity extends AppCompatActivity
     //Sessionmanager ses ;
 
 
-    private static final String SOAP_ACTION = "http://compwebsystems.com/TransactionSyncronization";
+    private static final String SOAP_ACTION = "http://ezzybooks.co.ke/TransactionSyncronization";
 
-    private static final String SOAP_ACTIONC = "http://compwebsystems.com/Updatecorecustomerregister";
+    private static final String SOAP_ACTIONC = "http://ezzybooks.co.ke/Updatecorecustomerregister";
 
-    String URL =Constants.URl+ "Ezzyacc/EzzyAccess.asmx?op=TransactionSyncronization";
+    String URL =Constants.URl+ "/Ezzyacc/EzzyAccess.asmx?op=TransactionSyncronization";
 
     String URL1 =Constants.URl+ "/Ezzyacc/EzzyAccess.asmx?op=Updatecorecustomerregister";
 
-    String NAMESPACE ="http://compwebsystems.com/";
+    String NAMESPACE ="http://ezzybooks.co.ke/";
 
     String METHOD_NAME="TransactionSyncronization";
 

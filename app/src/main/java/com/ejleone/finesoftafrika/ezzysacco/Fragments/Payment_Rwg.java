@@ -331,7 +331,13 @@ public class Payment_Rwg extends Fragment
                                                                   Long longrt = db.createTag(pesa);
 
                                                                   if(longrt >= 0){
-                                                                      new PrintReceipt(getActivity(),amunt,pref,type,ret,receipt,type);
+
+                                                                      try {
+                                                                          new PrintReceipt(getActivity(), amunt, pref, type, ret, receipt, type);
+                                                                      }
+                                                                      catch (Exception er){
+                                                                          er.printStackTrace();
+                                                                      }
                                                                   }
                                                                     // onLoginFailed();
                                                                     progressDialog.dismiss();
